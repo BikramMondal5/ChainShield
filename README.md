@@ -131,7 +131,7 @@ soroban contract deploy \
 
 Smart Contract Address: CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G 
 
-👉 https://stellar.expert/explorer/testnet/contract/CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G)](https://stellar.expert/explorer/testnet/contract/CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G
+👉 https://stellar.expert/explorer/testnet/contract/CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G
 
 
 ## 🧪 Example Usage
