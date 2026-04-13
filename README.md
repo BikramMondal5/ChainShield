@@ -1,8 +1,8 @@
 # 🛡️ Counterfeit Detection Smart Contract (Soroban - Stellar)
 
+![StellarExplorer](screenshot.png)
 A decentralized solution to detect counterfeit products using blockchain technology. This project leverages **Soroban smart contracts on the Stellar network** to create a tamper-proof system for product verification.
 
----
 
 ## 📌 Project Overview
 
@@ -10,7 +10,6 @@ Counterfeit products are a growing issue in industries like pharmaceuticals, ele
 
 This project introduces a **blockchain-based counterfeit detection system**, where each product is assigned a unique ID and stored on-chain. Users can verify the authenticity of a product instantly using this ID.
 
----
 
 ## 🎯 Problem Statement
 
@@ -18,8 +17,6 @@ This project introduces a **blockchain-based counterfeit detection system**, whe
 * Centralized databases can be tampered with
 * Lack of transparency in supply chains
 * Difficult for users to verify product authenticity
-
----
 
 ## 💡 Solution
 
@@ -29,8 +26,6 @@ We use **Soroban smart contracts** to:
 * Provide instant verification using product IDs
 * Prevent duplicate registrations
 * Enable trust without intermediaries
-
----
 
 ## ⚙️ How It Works
 
@@ -49,8 +44,6 @@ We use **Soroban smart contracts** to:
    * The contract checks if it exists
    * Returns authenticity status
 
----
-
 ## 🧠 Smart Contract Functions
 
 ### 1. `register_product(product_id, metadata)`
@@ -60,8 +53,6 @@ Registers a new product on the blockchain.
 * Prevents duplicate entries
 * Stores metadata securely
 
----
-
 ### 2. `verify_product(product_id)`
 
 Checks whether a product exists.
@@ -69,7 +60,6 @@ Checks whether a product exists.
 * Returns: `true` → Genuine
 * Returns: `false` → Possibly counterfeit
 
----
 
 ### 3. `get_product(product_id)`
 
@@ -77,7 +67,6 @@ Fetches product metadata.
 
 * Returns detailed information about the product
 
----
 
 ## 🚀 Features
 
@@ -88,8 +77,6 @@ Fetches product metadata.
 * 📦 **Metadata Support** – Store detailed product info
 * 🌍 **Decentralized Trust** – No central authority required
 
----
-
 ## 🏗️ Tech Stack
 
 * **Smart Contract:** Soroban
@@ -97,7 +84,6 @@ Fetches product metadata.
 * **Blockchain:** Stellar
 * **Storage:** On-chain contract storage
 
----
 
 ## 📂 Project Structure
 
@@ -109,8 +95,6 @@ counterfeit-detection/
 │── README.md           # Project documentation
 ```
 
----
-
 ## 🛠️ Setup & Installation
 
 ### Prerequisites
@@ -119,15 +103,12 @@ counterfeit-detection/
 * Soroban CLI installed
 * Stellar account (testnet)
 
----
-
 ### Install Soroban CLI
 
 ```bash
 cargo install soroban-cli
 ```
 
----
 
 ### Build Contract
 
@@ -135,7 +116,6 @@ cargo install soroban-cli
 cargo build --target wasm32-unknown-unknown --release
 ```
 
----
 
 ### Deploy to Stellar Testnet
 
@@ -146,13 +126,11 @@ soroban contract deploy \
   --network testnet
 ```
 
----
 
 ## 🔗 Deployed Smart Contract
 
-👉 XXX (Add your deployed contract link here)
+👉 https://stellar.expert/explorer/testnet/contract/CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G)](https://stellar.expert/explorer/testnet/contract/CANVPVNV4NP2BS3MDQSABIU65IFKADVUCOOCNO7K47DCCNUTZEEBYY6G
 
----
 
 ## 🧪 Example Usage
 
