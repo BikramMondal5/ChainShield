@@ -1,6 +1,6 @@
 # 🛡️ Counterfeit Detection Smart Contract (Soroban - Stellar)
 
-![StellarExplorer](screenshot.png)
+![StellarExplorer](screenshot_2026-04-13_13-40-17.png)
 A decentralized solution to detect counterfeit products using blockchain technology. This project leverages **Soroban smart contracts on the Stellar network** to create a tamper-proof system for product verification.
 
 
